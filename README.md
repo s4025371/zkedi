@@ -2,7 +2,8 @@
 
 ### Getting Started
 
-To run zkEDI simulator, execute `run-zkedi.py`.
+1. Make sure Python and required python dependencies are installed.
+2. To run zkEDI simulator, execute `run-zkedi.py`.
 
 ```python
 from Simulator import Simulator
