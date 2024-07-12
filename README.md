@@ -2,6 +2,8 @@
 
 ### Getting Started
 
+To run zkEDI simulator, execute `run-zkedi.py`.
+
 ```python
 from Simulator import Simulator
 import json
@@ -13,7 +15,7 @@ print(metrics)
 
 ### Parameter Settings
 
-To test with custom paramertes change the following values.
+To test with custom paramertes, change the following values.
 
 ```python
 simulator = Simulator(edge_scale=100, replica_size=256, corruption_rate=0.1, 
